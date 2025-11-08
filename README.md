@@ -1,114 +1,87 @@
-# 🌐 Crissoft SPA — Atividade II (Desenvolvimento Front-End)
+# 💙 Crissoft SPA - Conectando Vidas
 
-## 🎯 Objetivo da Atividade
-
-Esta segunda entrega tem como foco aplicar **CSS3** e boas práticas de **design responsivo** para transformar a estrutura HTML criada na Entrega I em uma **interface moderna, acessível e profissional**.  
-O projeto também visa demonstrar domínio em **Flexbox**, **Grid Layout**, **Design System** e **boas práticas de organização de código**.
+Bem-vindo ao **Crissoft SPA**, um projeto desenvolvido como parte da **Atividade II** da disciplina de Desenvolvimento Front-End.  
+Este projeto representa uma aplicação do tipo **Single Page Application (SPA)**, utilizando **HTML**, **CSS** e **JavaScript** para criar uma navegação dinâmica sem recarregar a página.
 
 ---
 
-## 🧠 Visão Geral do Projeto
+## 🎯 Objetivos do Projeto
 
-O projeto **Crissoft SPA** é uma aplicação web de página única (Single Page Application) que apresenta uma navegação simples e funcional entre as seções **Início**, **Cadastro** e **Sobre**, sem recarregar a página inteira.
+- Compreender o conceito de **SPA (Single Page Application)**.  
+- Estruturar o projeto em **módulos organizados (HTML, CSS e JS)**.  
+- Implementar **rotas simples** com JavaScript puro.  
+- Aplicar **boas práticas de acessibilidade e responsividade**.  
+- Demonstrar domínio sobre **componentização e reuso de código**.
 
-Essa estrutura serve como base para aplicações modernas que utilizam **JavaScript modular** e **componentização de conteúdo**.
+---
 
-
-
-## 🧩 Estrutura do Projeto
+## 🧱 Estrutura do Projeto
 
 Crissoft-SPA/
 │
-├── index.html # Estrutura principal da aplicação
-│
 ├── css/
-│ ├── style.css # Estilos principais do projeto
+│ └── style.css # Estilos gerais e layout responsivo
 │
 ├── js/
-│ ├── main.js # Arquivo JavaScript principal
-│ ├── router.js # Controla a navegação SPA
-│ ├── forms.js # Lógica de validação do formulário
-│ ├── templates/
-│ ├── home.js # Template da página inicial
-│ ├── cadastro.js # Template da página de cadastro
-│ ├── sobre.js # Template da página “Sobre”
+│ └── main.js # Controle das rotas e carregamento dinâmico
 │
-└── assets/
+├── pages/
+│ ├── home.html # Página inicial
+│ ├── sobre.html # Página "Sobre Nós"
+│ └── cadastro.html # Página de cadastro
+│
+├── assets/
+│ └── img/ # Imagens utilizadas no site
+│
+└── index.html # Página principal que integra tudo.
 
 
----
 
-## 🎨 Sistema de Design (Design System)
+## ⚙️ Tecnologias Utilizadas
 
-### 🎨 Paleta de Cores
-O projeto utiliza uma paleta com **8 cores** baseadas em tons suaves e contrastantes para garantir acessibilidade visual:
-- **Primárias:** `#0057A0`, `#007ACC`
-- **Secundárias:** `#00B4D8`, `#90E0EF`
-- **Neutras:** `#FFFFFF`, `#F5F5F5`, `#333333`, `#666666`
-
-### 🖋️ Tipografia
-- Fonte base: `'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`
-- Hierarquia de tamanhos: `12px`, `16px`, `20px`, `24px`, `32px`
-
-### 📏 Espaçamento modular
-Usa-se espaçamento baseado em múltiplos de 8:
-`8px, 16px, 24px, 32px, 48px, 64px`
-
----
-
-## 📱 Responsividade
-
-O layout foi desenvolvido utilizando **CSS Grid** e **Flexbox**, com **5 breakpoints** principais:
-- `320px` — Mobile
-- `480px` — Mobile landscape
-- `768px` — Tablet
-- `1024px` — Laptop
-- `1440px` — Desktop
+| Tecnologia | Função |
+|-------------|--------|
+| **HTML5** | Estrutura semântica e conteúdo das páginas |
+| **CSS3** | Estilo, layout responsivo e design moderno |
+| **JavaScript (ES6)** | Controle de rotas e interatividade SPA |
+| **Git & GitHub** | Versionamento e hospedagem do projeto |
 
 ---
 
-## ⚙️ Funcionalidades Principais
+## 🚀 Como Executar o Projeto
 
-- Navegação SPA (sem recarregar a página);
-- Layout totalmente responsivo;
-- Sistema modular de CSS;
-- Estrutura semântica de HTML5;
-- Validação de formulários com feedback visual;
-- Menu interativo com destaque de rota ativa.
+   git clone https://github.com/crissofter/Crissoft-SPA.git
 
----
+🌐 Funcionalidades
 
-## 🧑‍💻 Tecnologias Utilizadas
+✅ Navegação dinâmica entre páginas sem recarregar o site
+✅ Estrutura modular e escalável
+✅ Layout responsivo para mobile e desktop
+✅ Acessibilidade básica com estrutura semântica e contraste adequado
+✅ Design limpo e intuitivo
 
-- **HTML5**
-- **CSS3 (Flexbox e Grid)**
-- **JavaScript (ES Modules)**
-- **Git / GitHub**
+🧩 Rotas Implementadas
+Rota	Descrição
+Início (home)	Página inicial com introdução ao projeto
+Sobre	Página informativa sobre a Crissoft SPA
+Cadastro	Formulário de cadastro simples e funcional
+🎨 Layout e Estilo
 
----
+O projeto adota uma paleta em tons de azul e branco, transmitindo tranquilidade e confiança.
+Foi desenvolvido com foco em acessibilidade, usabilidade e design responsivo.
 
-## 📂 Organização no GitHub
+👨‍💻 Autor
 
-O repositório segue a seguinte estrutura:
-- **Branch principal:** `main`
-- **Commits semânticos:** mensagens claras e organizadas
-- **Arquivos de estilo separados:** para modularidade e clareza
+Cristiano Silva
+Desenvolvedor Front-End | Estudante de ciência da computação.
+💼 GitHub: htttps://github.com/crissofter/crissoft-spa
 
----
+📧 Contato: (cristianosilvas1974@gmail.com)
 
-## 🧾 Autor
+🏁 Licença
 
-**Cristiano Silva**  
-💼 Projeto desenvolvido para a disciplina de **Desenvolvimento Front-End**  
-🎓 Curso: **Análise e Desenvolvimento de Sistemas** – Atividade II  
-📅 Ano: **2025**
+Este projeto é de uso educacional, criado exclusivamente para fins acadêmicos e demonstração de aprendizado.
 
----
-
-## 🌟 Licença
-
-Este projeto é de uso acadêmico e não possui fins comerciais.  
-Sinta-se à vontade para explorar e aprender com o código!
-
+“A tecnologia move o mundo, mas é o coração que guia o propósito.” 💙
 
 

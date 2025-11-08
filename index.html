@@ -3,20 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto SPA</title>
+  <title>Crissoft SPA - Conectando Vidas</title>
+
+  <!-- 🪄 Fontes modernas do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- 🎨 Estilos principais -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
+  
+  <!-- 🔝 Cabeçalho com logotipo e navegação -->
+  <header class="navbar">
+    <a href="#" class="logo">
+      <img src="/assets/logo-crissoft 48x48jpg.jpg" alt="Logo Crissoft SPA" class="logo_img">
+      <span class="logo_text">Crissoft SPA</span>
+    </a>
+
     <nav>
       <button data-route="home">Início</button>
-      <button data-route="cadastro">Cadastro</button>
       <button data-route="sobre">Sobre</button>
+      <button data-route="cadastro">Cadastro</button>
     </nav>
   </header>
 
-  <main id="app"></main>
+  <!-- 💙 Área principal com imagem e chamada -->
+  <main id="app">
+    <section class="hero">
+      <img src="/assets/foto-piscina.png" alt="Imagem representando conexão e solidariedade" class="hero_img">
 
+      <div class="hero_text">
+        <h1>Transformando Conexões em Ações</h1>
+        <p>Na Crissoft SPA, tecnologia e empatia andam juntas para mudar vidas.</p>
+        <button class="cta">Saiba Mais</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🦶 Rodapé -->
+  <footer>
+    <p>© 2025 Crissoft SPA - Desenvolvido com 💙 por Cristiano Silva</p>
+  </footer>
+
+  <!-- ⚙️ Script principal -->
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
+
+
