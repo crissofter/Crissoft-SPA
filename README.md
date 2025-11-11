@@ -50,7 +50,7 @@ Crissoft-SPA/
 
 ## 🚀 Como Executar o Projeto
 
-   git clone https://github.com/crissofter/Crissoft-SPA.git
+   git clone https://github.com/crissofter/Crissoft-SPA
 
 🌐 Funcionalidades
 
